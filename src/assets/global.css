@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  color: var(--color-text-2);
+  background-color: var(--color-bg-1);
+}
+
+
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  @apply bg-gray-300;
+  /* color of the scroll thumb */
+}
+
+.mars3d-tooltip{
+  max-height: unset !important;
+}
+.rich-html p,
+.rich-html span{
+  white-space: pre-wrap;
+}
